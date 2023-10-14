@@ -60,7 +60,7 @@ PS C:\iap-rename> .\renameIAP.ps1
 
 Output:
 
-```Powershell
+```
 
 PS C:\iap-rename> .\renameIAP.ps1
 
