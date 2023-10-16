@@ -20,9 +20,18 @@ Install-Module -Name Posh-SSH
 Install-Module -Name PowerArubaIAP
 ```
 
+Enable the REST API on the IAP cluster (can only be enabled via SSH)
+```
+AP# configure
+AP (config) # allow-rest-api
+AP (config) # exit
+AP# commit apply
+```
+
 The script was tested with ArubaOS 8.11.2.0
 
 # Settings
+
 
 Define the IP address and the admin credentials for the API connection to the IAP Virtual Controller in the config file `settings.json`
 
